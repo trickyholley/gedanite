@@ -108,7 +108,7 @@ function renderQuestion() {
 function renderContent() {
   setInnerHTML('#app', `
     <div id="content">
-        <img alt="amber logo for the Gedanite service" src="/gedanite.png" height="200"/>
+        <img alt="amber logo for the Gedanite service" src="/gedanite.png" height="160"/>
       <h2>Get ready for the GED!</h2>
       <p>Select the category of question you'd like to receive</p>
       <div id="subject-buttons">

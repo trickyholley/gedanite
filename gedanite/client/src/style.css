@@ -21,15 +21,18 @@ button {
     }
 }
 
-ol {
-    width: 100%;
+input[type="radio"] {
+    accent-color: #ffaa33;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 pre {
     background-color: #f0f0f0;
     padding: 10px;
     border-radius: 5px;
-    height: 200px;
+    height: 160px;
     overflow-y: scroll;
     white-space: pre-wrap;
     width: 800px;
@@ -38,7 +41,7 @@ pre {
 textarea {
   resize: none;
     width: 500px;
-    height: 100px;
+    height: 80px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -51,7 +54,7 @@ textarea {
   width: 80%;
     max-width: 800px;
   height: 80%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 #explanation-prompt {
@@ -63,6 +66,10 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    p, ol {
+        width: 500px;
+    }
 }
 
 #subject-buttons {
@@ -75,7 +82,7 @@ textarea {
   position: relative;
   width: 120px;
   height: 90px;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 .loader:before {
   content: "";

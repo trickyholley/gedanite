@@ -1,0 +1,5 @@
+anthropic
+chatlas
+dotenv
+flask
+flask-cors

@@ -2,6 +2,7 @@ body {
     background-color: #77bbff;
     color: #222222;
     font-family: Arial, sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
@@ -12,9 +13,10 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
     border-radius: 5px;
+    font-size: 1rem;
     font-weight: bold;
+    width: 200px;
 
     &:hover {
         background-color: #ffaa33;
@@ -40,21 +42,27 @@ pre {
 
 textarea {
   resize: none;
-    width: 500px;
+    width: 380px;
     height: 80px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    font-size: 1rem;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
 }
 
 #content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        background-color: #bbddff;
   width: 80%;
     max-width: 800px;
   height: 80%;
-  margin: 0 auto;
+  margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #explanation-prompt {
@@ -65,17 +73,16 @@ textarea {
 #question {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-    p, ol {
-        width: 500px;
-    }
 }
 
 #subject-buttons {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+}
+
+#submit-answer {
+    margin-top: 20px;
 }
 
 .loader {

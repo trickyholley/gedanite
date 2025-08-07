@@ -88,7 +88,7 @@ function renderQuestion() {
     <ol>${optionsHtml}</ol>
     </div>
     <label id="explanation-prompt" for="explanation">Explain your answer:</label>
-    <textarea id="explanation" rows="4" cols="50" placeholder="Type your explanation here..."></textarea>
+    <textarea id="explanation" rows="4" cols="50" placeholder="I came to this conclusion because..."></textarea>
     <button id="submit-answer">Submit Answer</button>
   `);
 
@@ -108,7 +108,6 @@ function renderQuestion() {
 function renderContent() {
   setInnerHTML('#app', `
     <div id="content">
-        <img alt="amber logo for the Gedanite service" src="/gedanite.png" height="160"/>
       <h2>Get ready for the GED!</h2>
       <p>Select the category of question you'd like to receive</p>
       <div id="subject-buttons">
